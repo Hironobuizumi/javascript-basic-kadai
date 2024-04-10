@@ -1,8 +1,8 @@
+const textElement = document.getElementById('text');
+const buttonElement = document.getElementById('btn');
 
-const textDisplay = document.getElementById('text');
-const changeTextBtn = document.getElementById('Btn');
 
-changeTextBtn.addEventListener('click', () => {
-
-  textDisplay.textContent = ' ボタンをクリックしました';
+buttonElement.addEventListener('click', function() {
+ 
+    textElement.textContent = 'ボタンをクリックしました';
 });
